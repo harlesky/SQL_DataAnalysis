@@ -41,5 +41,35 @@ FROM job_postings_fact
 WHERE job_title_short = 'Data Analyst'  
 ORDER BY salary_year_avg DESC  
 LIMIT 10;
+```
+## Analysis
+Understanding the data analyst job market is essential for professionals looking to maximize their earnings and career growth. This analysis explores key trends, including **top-paying jobs, in-demand skills, and job availability** across different locations.  
 
+## 1️⃣ 🏆 Top-Paying Data Analyst Jobs  
+
+💰 Not all data analyst jobs pay the same! Salaries vary based on **location, company reputation, and job type**. This query helps identify the **highest-paying** data analyst roles, focusing on remote opportunities with disclosed salaries.  
+
+🔍 **Query to find the highest-paying Data Analyst roles:**  
+
+```sql
+-- 🏆 Top-Paying Data Analyst Jobs  
+SELECT  
+    job_id,  
+    job_title,  
+    job_location,  
+    job_schedule_type,  
+    salary_year_avg,  
+    job_posted_date,  
+    name AS company_name  
+FROM  
+    job_postings_fact  
+LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id  
+WHERE   
+    job_title_short = 'Data Analyst' AND  
+    job_location = 'Anywhere' AND  
+    salary_year_avg IS NOT NULL  
+ORDER BY   
+    salary_year_avg DESC  
+LIMIT 10;
+```
 
