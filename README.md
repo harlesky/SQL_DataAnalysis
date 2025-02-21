@@ -80,5 +80,7 @@ Based on our dataset, the top-paying data analyst jobs offer salaries up to **$4
 🔍 **Key Findings:**  
 - The **highest-paying role** is for a **Financial Data Analyst** at **Ali Awad Law, P.C.** ($47,500/year).  
 - **Full-time positions** generally offer **higher salaries** than contractor roles.  
-- Remote work is common among top-paying jobs, indicating flexibility in the data analytics field.  
+- Remote work is common among top-paying jobs, indicating flexibility in the data analytics field.
+
+![TOP paying roles]()
 
