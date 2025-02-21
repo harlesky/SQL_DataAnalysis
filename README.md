@@ -8,7 +8,7 @@
 
 💼 The demand for data analysts has skyrocketed in recent years, with companies relying on data-driven insights for decision-making. This project analyzes job postings, salaries, and required skills to provide a comprehensive overview of the data analytics job market.  
 
-🔍 SQL queries? Check them out in the `project_sql` folder.  
+🔍 SQL queries? Check them out in the [project_sql](https://github.com/harlesky/SQL_DataAnalysis/tree/main/project_sql) folder.  
 
 ## Tools Used  
 
